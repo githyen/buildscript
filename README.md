@@ -79,7 +79,7 @@ yum -y update
 
 
 
-> Specify version: 4.2.z
+> Specify version: 4.4.z
 
 
 
@@ -88,13 +88,13 @@ yum -y update
 
 cd ~/tmp
 
-curl "https://ftp.gnu.org/gnu/make/make-4.2.1.tar.bz2" -o make-4.2.1.tar.bz2
+curl "https://ftp.gnu.org/gnu/make/make-4.4.tar.bz2" -o make-4.4.tar.bz2
 
 cd ~/src
 
-tar xf ~/tmp/make-4.2.1.tar.bz2
+tar xf ~/tmp/make-4.4.tar.bz2
 
-cd make-4.2.1
+cd make-4.4
 
 ./configure --prefix=$HOME
 
@@ -129,7 +129,7 @@ export MAKE=$HOME/bin/make
 
 
 
-> Specify version: 0.29.z
+> Specify version: 0.29.2z
 
 
 
@@ -170,7 +170,7 @@ make install
 
 
 
-> Specify version: 2.69.z
+> Specify version: 2.71.z
 
 
 
@@ -184,13 +184,13 @@ make install
 
 cd ~/tmp
 
-curl "https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz" -o autoconf-2.69.tar.gz
+curl "https://ftp.gnu.org/gnu/autoconf/autoconf-2.71.tar.gz" -o autoconf-2.71.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/autoconf-2.69.tar.gz
+tar xf ~/tmp/autoconf-2.71.tar.gz
 
-cd autoconf-2.69
+cd autoconf-2.71
 
 ./configure --prefix=$HOME
 
@@ -211,7 +211,7 @@ make install
 
 
 
-> Specify version: 1.16.z
+> Specify version: 1.16.5.z
 
 
 
@@ -225,13 +225,13 @@ make install
 
 cd ~/tmp
 
-curl "https://ftp.gnu.org/gnu/automake/automake-1.16.1.tar.gz" -o automake-1.16.1.tar.gz
+curl "https://ftp.gnu.org/gnu/automake/automake-1.16.5.tar.gz" -o automake-1.16.5.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/automake-1.16.1.tar.gz
+tar xf ~/tmp/automake-1.16.5.tar.gz
 
-cd automake-1.16.1
+cd automake-1.16.5
 
 ./configure --prefix=$HOME
 
@@ -266,13 +266,13 @@ make install
 
 cd ~/tmp
 
-curl -L "http://ftpmirror.gnu.org/libtool/libtool-2.4.6.tar.gz" -o libtool-2.4.6.tar.gz
+curl -L "http://ftpmirror.gnu.org/libtool/libtool-2.4.7.tar.gz" -o libtool-2.4.7.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/libtool-2.4.6.tar.gz
+tar xf ~/tmp/libtool-2.4.7.tar.gz
 
-cd libtool-2.4.6
+cd libtool-2.4.7
 
 ./configure --prefix=$HOME --disable-ltdl-install
 
@@ -320,13 +320,13 @@ export LIBTOOL=$HOME/bin/libtool
 
 cd ~/tmp
 
-curl "https://ftp.gnu.org/gnu/gmp/gmp-6.1.2.tar.bz2" -o gmp-6.1.2.tar.bz2
+curl "https://ftp.gnu.org/gnu/gmp/gmp-6.2.1.tar.bz2" -o gmp-6.2.1.tar.bz2
 
 cd ~/src
 
-tar xf ~/tmp/gmp-6.1.2.tar.bz2
+tar xf ~/tmp/gmp-6.2.1.tar.bz2
 
-cd gmp-6.1.2
+cd gmp-6.2.1
 
 ./configure --prefix=$HOME --enable-static=yes --enable-shared=no
 
@@ -347,7 +347,7 @@ make install
 
 
 
-> Specify version: 0.21.z
+> Specify version: 0.25.z
 
 
 
@@ -361,13 +361,13 @@ make install
 
 cd ~/tmp
 
-curl "http://isl.gforge.inria.fr/isl-0.21.tar.bz2" -o isl-0.21.tar.bz2
+curl "http://isl.gforge.inria.fr/isl-0.25.tar.bz2" -o isl-0.25.tar.bz2
 
 cd ~/src
 
-tar xf ~/tmp/isl-0.21.tar.bz2
+tar xf ~/tmp/isl-0.25.tar.bz2
 
-cd isl-0.21
+cd isl-0.25
 
 ./configure --prefix=$HOME --with-gmp-prefix=$HOME --enable-static=yes --enable-shared=no
 
@@ -388,7 +388,7 @@ make install
 
 
 
-> Specify version: 4.0.z
+> Specify version: 4.2.z
 
 
 
@@ -401,13 +401,13 @@ make install
 
 cd ~/tmp
 
-curl "https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.bz2" -o mpfr-4.0.2.tar.bz2
+curl "https://www.mpfr.org/mpfr-current/mpfr-4.2.0.tar.bz2" -o mpfr-4.2.0.tar.bz2
 
 cd ~/src
 
-tar xf ~/tmp/mpfr-4.0.2.tar.bz2
+tar xf ~/tmp/mpfr-4.2.0.tar.bz2
 
-cd mpfr-4.0.2
+cd mpfr-4.2.0
 
 ./configure --prefix=$HOME --with-gmp=$HOME --enable-static=yes --enable-shared=no
 
@@ -428,7 +428,7 @@ make install
 
 
 
-> Specify version: 1.1.z
+> Specify version: 1.3.1.z
 
 
 
@@ -442,13 +442,13 @@ make install
 
 cd ~/tmp
 
-curl "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz" -o mpc-1.1.0.tar.gz
+curl "https://ftp.gnu.org/gnu/mpc/mpc-1.3.1.tar.gz" -o mpc-1.3.1.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/mpc-1.1.0.tar.gz
+tar xf ~/tmp/mpc-1.3.1.tar.gz
 
-cd mpc-1.1.0
+cd mpc-1.3.1
 
 ./configure --prefix=$HOME --with-mpfr=$HOME --with-gmp=$HOME --enable-static=yes --enable-shared=no
 
@@ -469,7 +469,7 @@ make install
 
 
 
-> Specify version: 8.3.z
+> Specify version: 11.3.z
 
 
 
@@ -483,13 +483,13 @@ make install
 
 cd ~/tmp
 
-curl "https://ftp.gnu.org/gnu/gcc/gcc-8.3.0/gcc-8.3.0.tar.gz" -o gcc-8.3.0.tar.gz
+curl "https://ftp.gnu.org/gnu/gcc/gcc-11.3.0/gcc-11.3.0.tar.gz" -o gcc-11.3.0.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/gcc-8.3.0.tar.gz
+tar xf ~/tmp/gcc-11.3.0.tar.gz
 
-cd gcc-8.3.0
+cd gcc-11.3.0
 
 ./configure --prefix=$HOME --with-mpc=$HOME --with-mpfr=$HOME --with-gmp=$HOME --with-isl=$HOME --enable-languages=c,c++ --disable-multilib
 
@@ -526,7 +526,7 @@ export CXX=$HOME/bin/g++
 
 
 
-> Specify version: 3.14.z
+> Specify version: 3.25.z
 
 
 
@@ -539,13 +539,13 @@ export CXX=$HOME/bin/g++
 
 cd ~/tmp
 
-curl -L "https://github.com/Kitware/CMake/releases/download/v3.14.5/cmake-3.14.5.tar.gz" -o cmake-3.14.5.tar.gz
+curl -L "https://github.com/Kitware/CMake/releases/download/v3.25.2/cmake-3.25.2.tar.gz" -o cmake-3.25.2.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/cmake-3.14.5.tar.gz
+tar xf ~/tmp/cmake-3.25.2.tar.gz
 
-cd cmake-3.14.5
+cd cmake-3.25.2
 
 ./configure --prefix=$HOME
 
@@ -566,7 +566,7 @@ make install
 
 
 
-> Specify version: 1.8.z
+> Specify version: 1.9.5.z
 
 
 
@@ -579,13 +579,13 @@ make install
 
 cd ~/tmp
 
-curl -L "https://github.com/open-source-parsers/jsoncpp/archive/1.8.4.tar.gz" -o jsoncpp-1.8.4.tar.gz
+curl -L "https://github.com/open-source-parsers/jsoncpp/archive/1.9.5.tar.gz" -o jsoncpp-1.9.5.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/jsoncpp-1.8.4.tar.gz
+tar xf ~/tmp/jsoncpp-1.9.5.tar.gz
 
-cd jsoncpp-1.8.4
+cd jsoncpp-1.9.5
 
 mkdir cmakebuild
 
@@ -610,7 +610,7 @@ make install
 
 
 
-> Specify version: 1.30.z
+> Specify version: 1.44.z
 
 
 
@@ -622,13 +622,13 @@ make install
 
 cd ~/tmp
 
-curl -L "https://github.com/libuv/libuv/archive/v1.30.1.tar.gz" -o libuv-1.30.1.tar.gz
+curl -L "https://github.com/libuv/libuv/archive/v1.44.2.tar.gz" -o libuv-1.44.2.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/libuv-1.30.1.tar.gz
+tar xf ~/tmp/libuv-1.44.2.tar.gz
 
-cd libuv-1.30.1
+cd libuv-1.44.2
 
 ./autogen.sh
 
@@ -691,7 +691,7 @@ make install_sw
 
 
 
-> Specify version: 2.4.z
+> Specify version: 2.5.z
 
 
 
@@ -704,13 +704,13 @@ make install_sw
 
 cd ~/tmp
 
-curl "ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/openldap-2.4.47.tgz" -o openldap-2.4.47.tgz
+curl "ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/openldap-2.5.14.tgz" -o openldap-2.5.14.tgz
 
 cd ~/src
 
-tar xf ~/tmp/openldap-2.4.47.tgz
+tar xf ~/tmp/openldap-2.5.14.tgz
 
-cd openldap-2.4.47
+cd openldap-2.5.14
 
 ./configure --prefix=$HOME --enable-slapd=no --enable-shared=no --enable-static=yes
 
@@ -731,7 +731,7 @@ make install
 
 
 
-> Specify version: 1.15.z
+> Specify version: 1.18.z
 
 
 
@@ -744,13 +744,13 @@ make install
 
 cd ~/tmp
 
-curl "https://c-ares.haxx.se/download/c-ares-1.15.0.tar.gz" -o c-ares-1.15.0.tar.gz
+curl "https://c-ares.haxx.se/download/c-ares-1.18.1.tar.gz" -o c-ares-1.18.1.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/c-ares-1.15.0.tar.gz
+tar xf ~/tmp/c-ares-1.18.1.tar.gz
 
-cd c-ares-1.15.0
+cd c-ares-1.18.1
 
 ./configure --prefix=$HOME --enable-shared=no --enable-static=yes
 
@@ -784,13 +784,13 @@ make install
 
 cd ~/tmp
 
-curl "https://curl.haxx.se/download/curl-7.65.1.tar.gz" -o curl-7.65.1.tar.gz
+curl "https://curl.haxx.se/download/curl-7.87.0.tar.gz" -o curl-7.87.0.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/curl-7.65.1.tar.gz
+tar xf ~/tmp/curl-7.87.0.tar.gz
 
-cd curl-7.65.1
+cd curl-7.87.0
 
 ./configure --prefix=$HOME --enable-ares=$HOME --enable-shared=no --enable-static=yes
 
@@ -1028,7 +1028,7 @@ make install
 
 
 
-> Specify version: 2.13.z
+> Specify version: 2.16.z
 
 
 
@@ -1041,13 +1041,13 @@ make install
 
 cd ~/tmp
 
-curl -L "https://github.com/datastax/cpp-driver/archive/2.13.0.tar.gz" -o cpp-driver-2.13.0.tar.gz
+curl -L "https://github.com/datastax/cpp-driver/archive/2.16.2.tar.gz" -o cpp-driver-2.16.2.tar.gz
 
 cd ~/src
 
-tar xf ~/tmp/cpp-driver-2.13.0.tar.gz
+tar xf ~/tmp/cpp-driver-2.16.2.tar.gz
 
-cd cpp-driver-2.13.0
+cd cpp-driver-2.16.2
 
 mkdir cmakebuild
 
