@@ -27,7 +27,7 @@ curl -L "https://nchc.dl.sourceforge.net/project/faac/faac-src/faac-1.28/faac-1.
 curl -L "https://github.com/webmproject/libwebp/archive/refs/tags/v1.3.0.tar.gz" -o webp.tar.gz
 curl -L "https://github.com/aws/aws-sdk-cpp/archive/1.7.138.tar.gz" -o aws-sdk-cpp-1.7.138.tar.gz
 curl -L "https://github.com/open-source-parsers/jsoncpp/archive/1.9.5.tar.gz" -o jsoncpp-1.9.5.tar.gz
-curl -L https://github.com/nemtrif/utfcpp/archive/refs/tags/v3.2.3.tar.gz"" -o utfcpp-3.2.3.tar.gz
+curl -L "https://github.com/nemtrif/utfcpp/archive/refs/tags/v3.2.3.tar.gz" -o utfcpp-3.2.3.tar.gz
 curl -L "https://ffmpeg.org/releases/ffmpeg-3.3.9.tar.bz2" -o ffmpeg-3.3.9.tar.bz2
 #-------------------------------------------------------
 # 현재 디렉터리에서 모든 파일 이름을 리스트에 추가
